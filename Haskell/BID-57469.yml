@@ -1,0 +1,13 @@
+---
+type: library
+cabal: tls-extra
+bid: 57469
+url: http://www.securityfocus.com/bid/57469
+title: haskell TLS 'tls-extra' Package SSL Certificate Validation Security Bypass Vulnerability
+date: 2013-01-20
+description: >
+	The 'tls-extra' package for haskell TLS is prone to a security-bypass vulnerability because the application fails to properly 
+	validate SSL certificates from the server. Successfully exploiting this issue allows attackers to perform man-in-the-middle 
+	attacks or impersonate trusted servers, which will aid in further attacks. tls-extra versions prior to 0.6.1 are vulnerable.
+patched_versions:
+  - ">= 0.6.3"
