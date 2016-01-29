@@ -1,0 +1,11 @@
+---
+type: library
+maven: org.apache.storm:storm-core
+srcclr: 1813
+url: https://srcclr.com/security/servible-files-from-outside-log/java/s-1813
+title: Servible Files From Outside Log Directory
+date: 2015-10-25
+description: >
+	Apache Storm 0.9.1-incubating log viewer is able to serve files from outside of the log directory.
+patched_versions:
+  - ">= 0.9.2-incubating"

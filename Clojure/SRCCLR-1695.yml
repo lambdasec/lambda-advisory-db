@@ -1,0 +1,12 @@
+---
+type: library
+maven: org.apache.storm:storm-core
+srcclr: 1695
+url: https://srcclr.com/security/arbitrary-code-execution-as-another-user/java/s-1695
+title: Arbitrary Code Execution as Another User
+date: 2015-10-28
+description: >
+	The UI daemon in Apache Storm 0.10.0-beta allows remote users to run arbitrary code as the user running the web server.
+	With kerberos authentication this could allow impersonation of arbitrary users on other systems, including HDFS and HBase.
+patched_versions:
+  - ">= 0.10.0-beta1"
