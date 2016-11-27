@@ -2,7 +2,7 @@
 
 The Lambda Advisory Database aims to compile all advisories that are relevant to functional languages.
 
-Currently tracking 12 vulnearbilities across 5 languages:
+Currently tracking 12 vulnerabilities across 5 languages:
 
 | Language | Number of Vulns |
 |----------|:---------------:|
